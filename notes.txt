@@ -8,3 +8,4 @@ SHARE SERVER ONLINE:
 
 EXECUTE CONFIGURED SCRIPT
 - > npm run start  OR > npm start
+- by convention "prestart" scripts are executed before "start" scripts, and so "poststart", and other script names
