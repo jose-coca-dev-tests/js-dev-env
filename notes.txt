@@ -5,3 +5,6 @@ SHARE SERVER ONLINE:
 - execute: > node buildScripts/srcServer.js
 - execute as admin: > lt --port 3000 --subdomain josecoca
 - open the provided link: https://josecoca.loca.lt/
+
+EXECUTE CONFIGURED SCRIPT
+- > npm run start  OR > npm start
