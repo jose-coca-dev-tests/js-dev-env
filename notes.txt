@@ -1,0 +1,7 @@
+EXECUTE EXPRESS SERVER
+- execute: > node buildScripts/srcServer.js
+SHARE SERVER ONLINE:
+- install > npm install localtunnel -g
+- execute: > node buildScripts/srcServer.js
+- execute as admin: > lt --port 3000 --subdomain josecoca
+- open the provided link: https://josecoca.loca.lt/
