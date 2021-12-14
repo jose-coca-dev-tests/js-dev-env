@@ -1,0 +1,1 @@
+export const LibConst = 123456;

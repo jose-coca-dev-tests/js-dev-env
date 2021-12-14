@@ -10,3 +10,7 @@ EXECUTE CONFIGURED SCRIPT
 - > npm run start  OR > npm start
 - by convention "prestart" scripts are executed before "start" scripts, and so "poststart", and other script names
 - execute configured scripts in parallel in only one terminal: > "parallelConfiguredScript": "npm-run-all --parallel script1 script2"
+
+MODULE LOAD
+- After load index.js and myLib.js we get on the console: "index.js is loaded!!, from lib: 123456"
+- Inspecting the debugger tab we can see the two javascript files just as they exist in ./src/
