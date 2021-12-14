@@ -30,6 +30,10 @@ app.get('/myLib.js',function(req,res){
     res.sendFile(path.join(__dirname, '../src/myLib.js')); 
 });
 
+app.get('/styles.css',function(req,res){
+    res.sendFile(path.join(__dirname, '../src/styles.css')); 
+});
+
 app.listen(port, function (err) {
   if (err) {
     console.log(err);
