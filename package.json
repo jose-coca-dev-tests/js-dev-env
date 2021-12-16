@@ -7,7 +7,7 @@
     "start": "babel-node buildScripts/srcServer.js",
     "localtunnel": "lt --port 3000 --subdomain josecoca",
     "share": "npm-run-all --parallel start localtunnel",
-    "lint": "esw webpack.config.* src buildScripts --color"
+    "lint": "esw webpack.config.* src buildScripts --color --watch"
   },
   "author": "Jose Coca",
   "license": "",
