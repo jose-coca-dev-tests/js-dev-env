@@ -4,6 +4,9 @@ import open from "open";
 import webpack from "webpack";
 import config from "../webpack.config.dev";
 
+// next line will disable the console rule of eslint, it is proper to do so in build scripts like this
+/* eslint-disable no-console */
+
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
