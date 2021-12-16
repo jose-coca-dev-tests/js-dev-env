@@ -21,3 +21,4 @@ EXECUTE LINTING
 - execute: > npm run lint, we will get warnings for console.log lines
 - eslint rules can be disabled for a whole file with a comment at the top: /* eslint-disable no-console */
 - eslint rules can be disabled for specific line with a comment at the end of the line: // eslint-disable-line no-console
+- eslint is configured to execute and watch files in command "start", every time the application is executed the eslint will watch files and show results
