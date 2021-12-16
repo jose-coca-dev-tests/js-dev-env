@@ -16,3 +16,6 @@ MODULE LOAD
 - Inspecting the debugger tab we can see the two javascript files just as they exist in ./src/
 - After load bundle.html we get on the console: "indexBundler.js is loaded!!, from lib: 123456"
 - Inspecting the debugger tab we can see only one javascript file "bundle.js" which bundles the code of both indexBundler.js and myLib.js
+
+EXECUTE LINTING
+- execute: > npm run lint, we will get warnings for console.log lines
