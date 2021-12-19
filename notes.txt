@@ -28,3 +28,4 @@ TESTS
 
 HTTP CALLS
 - the users mock service can be accessed at http://localhost:3000/users
+- the list of users is at http://localhost:3000/bundle.html
