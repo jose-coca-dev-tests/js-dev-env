@@ -51,6 +51,12 @@ SUBJECTS FOR INVESTIGATION
 - JSDom
 - Cheerio
 - Fetch
+- http (node)
+- request (node)
+- isomorphic Fetch
+- xhr
+- SuperAgent
+- Axios
 - Nock
 - api-mock
 - JSON server
@@ -59,3 +65,4 @@ SUBJECTS FOR INVESTIGATION
   - faker.js
   - chance.js
   - randexp.js
+- Browsersync
