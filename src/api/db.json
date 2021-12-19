@@ -1,28 +1,3 @@
 {
-    "users": [
-        {
-            "id": 90789067,
-            "firstName": "Mae",
-            "lastName": "Schultz",
-            "email": "Mavis_Cummings@yahoo.com"
-        },
-        {
-            "id": 80863227,
-            "firstName": "Elsa",
-            "lastName": "Sanford",
-            "email": "Nels_Denesik82@hotmail.com"
-        },
-        {
-            "id": 74395893,
-            "firstName": "Elvie",
-            "lastName": "Ruecker",
-            "email": "Alessia95@gmail.com"
-        },
-        {
-            "id": 90843995,
-            "firstName": "Jerrell",
-            "lastName": "Wyman",
-            "email": "Desiree_Boyer@hotmail.com"
-        }
-    ]
+  "users": []
 }
