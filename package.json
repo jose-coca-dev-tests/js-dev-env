@@ -12,7 +12,8 @@
     "lint:watch": "npm run lint -- --watch",
     "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch",
-    "generate-mock-data": "babel-node buildScripts/generateMockData.js"
+    "generate-mock-data": "babel-node buildScripts/generateMockData.js",
+    "start-mockapi": "json-server --watch src/api/db.json --port 3001"
   },
   "author": "Jose Coca",
   "license": "",

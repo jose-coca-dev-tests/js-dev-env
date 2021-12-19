@@ -30,6 +30,8 @@ HTTP CALLS
 - the users mock service can be accessed at http://localhost:3000/users
 - the list of users is at http://localhost:3000/bundle.html
 - generate mock data at src/api/db.json : > npm run generate-mock-data
+- start the json server mock api: > npm run start-mockapi
+- open the users list at the mock api: http://localhost:3001/users
 
 
 SUBJECTS FOR INVESTIGATION
@@ -39,6 +41,7 @@ SUBJECTS FOR INVESTIGATION
 - localtunnel
 - NPM scripts
 - Babel
+- babel-node
 - AMD asyncrhonous module definition
 - RequireJS
 - Mocha
