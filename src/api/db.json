@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 90550478,
+            "firstName": "Alexis",
+            "lastName": "DuBuque",
+            "email": "Leora.Legros58@gmail.com"
+        },
+        {
+            "id": 30163528,
+            "firstName": "Rhett",
+            "lastName": "Gottlieb",
+            "email": "Tracey38@yahoo.com"
+        },
+        {
+            "id": 50000560,
+            "firstName": "Sanford",
+            "lastName": "Kozey",
+            "email": "Brian.Kuhic67@hotmail.com"
+        },
+        {
+            "id": 57001451,
+            "firstName": "William",
+            "lastName": "Upton",
+            "email": "Paxton.Bechtelar@gmail.com"
+        }
+    ]
+}

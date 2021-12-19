@@ -29,6 +29,7 @@ TESTS
 HTTP CALLS
 - the users mock service can be accessed at http://localhost:3000/users
 - the list of users is at http://localhost:3000/bundle.html
+- generate mock data at src/api/db.json : > npm run generate-mock-data
 
 
 SUBJECTS FOR INVESTIGATION
