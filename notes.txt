@@ -33,6 +33,7 @@ HTTP CALLS
 - start the json server mock api: > npm run start-mockapi
 - open the users list at the mock api: http://localhost:3001/users
 - the mock file will be generated every time before start the mock api server
+- the mock data will be generated and the server started along with the application start
 
 
 SUBJECTS FOR INVESTIGATION
