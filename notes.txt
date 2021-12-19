@@ -29,3 +29,27 @@ TESTS
 HTTP CALLS
 - the users mock service can be accessed at http://localhost:3000/users
 - the list of users is at http://localhost:3000/bundle.html
+
+
+SUBJECTS FOR INVESTIGATION
+- ESLint
+- Webpack
+- Express
+- localtunnel
+- NPM scripts
+- Babel
+- AMD asyncrhonous module definition
+- RequireJS
+- Mocha
+- Chai
+- JSDom
+- Cheerio
+- Fetch
+- Nock
+- api-mock
+- JSON server
+- JSON Schema   https://json-schema.org/
+- JSON schema faker
+  - faker.js
+  - chance.js
+  - randexp.js
