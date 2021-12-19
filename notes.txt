@@ -25,3 +25,6 @@ EXECUTE LINTING
 
 TESTS
 - execute: > npm test  OR > npm run test
+
+HTTP CALLS
+- the users mock service can be accessed at http://localhost:3000/users
