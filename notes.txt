@@ -32,6 +32,7 @@ HTTP CALLS
 - generate mock data at src/api/db.json : > npm run generate-mock-data
 - start the json server mock api: > npm run start-mockapi
 - open the users list at the mock api: http://localhost:3001/users
+- the mock file will be generated every time before start the mock api server
 
 
 SUBJECTS FOR INVESTIGATION
