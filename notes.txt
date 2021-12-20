@@ -35,6 +35,8 @@ HTTP CALLS
 - the mock file will be generated every time before start the mock api server
 - the mock data will be generated and the server started along with the application start
 
+PRODUCTION BUILD
+- process.env.NODE_ENV can be used by babel and other libs
 
 SUBJECTS FOR INVESTIGATION
 - ESLint
