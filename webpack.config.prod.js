@@ -1,11 +1,11 @@
 import path from "path";
 
 export default {
-  mode: "development",
-  devtool: "eval-source-map",
+  mode: "production",
+  devtool: "source-map",
   entry: "./src/indexBundler.js",
   output: {
-    path: path.resolve(__dirname, "src"),
+    path: path.resolve(__dirname, "dist"),
     publicPath: "/",
     filename: "bundle.js",
   },
