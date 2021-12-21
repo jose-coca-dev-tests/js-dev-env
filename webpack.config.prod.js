@@ -1,5 +1,5 @@
 import path from "path";
-import CopyPlugin from "copy-webpack-plugin";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
 export default {
   mode: "production",
@@ -11,7 +11,11 @@ export default {
     filename: "bundle.js",
   },
   plugins: [
-    new CopyPlugin({patterns:[{from: path.resolve(__dirname, "./src/bundle.html")},],})
+    // Create HTML file that includes reference to bundled JS.
+    new HtmlWebpackPlugin({
+      template: "src/bundle.html",
+      filename: "bundle.html"
+    })
   ],
   module: {
     rules: [
