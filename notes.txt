@@ -50,6 +50,9 @@ PRODUCTION BUILD
 - the GZIP compression is not actually working, not in my local test, it must be enabled in the server configuration
 - The bundle is splitted in two: main.js(app code) and vendor.js(dependencies), only in production build, it is working
 - A hash is added to the bundle names, it is useful for "cache busting", setting a time limit for not updating the bundle in the browser
+- The stylesheet is now added to the dist output just as the bundle files, and it contains a hash as well, it is added to bundle.html as:
+    <link href="/main.e74025b51d143565c1ce.css" rel="stylesheet">
+  Before this it was added to the javascript bundle and it was added to the document by DOM manipulation
 
 SUBJECTS FOR INVESTIGATION
 - ESLint
