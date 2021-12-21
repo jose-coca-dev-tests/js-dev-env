@@ -48,6 +48,7 @@ PRODUCTION BUILD
 - html generation with bundle script added is working in dev and production builds
 - it was needed to downgrade versions in webpack and html-webpack-plugin
 - the GZIP compression is not actually working, not in my local test, it must be enabled in the server configuration
+- The bundle is splitted in two: main.js(app code) and vendor.js(dependencies), only in production build, it is working
 
 SUBJECTS FOR INVESTIGATION
 - ESLint
@@ -82,3 +83,4 @@ SUBJECTS FOR INVESTIGATION
   - randexp.js
 - Browsersync
 - enable GZIP encoding/compressing
+- Lodash
