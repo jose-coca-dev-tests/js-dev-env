@@ -1,4 +1,5 @@
 import path from "path";
+import CopyPlugin from "copy-webpack-plugin";
 
 export default {
   mode: "production",
@@ -9,7 +10,9 @@ export default {
     publicPath: "/",
     filename: "bundle.js",
   },
-  plugins: [],
+  plugins: [
+    new CopyPlugin({patterns:[{from: path.resolve(__dirname, "./src/bundle.html")},],})
+  ],
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, use: ["babel-loader"] },

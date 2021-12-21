@@ -37,6 +37,9 @@ HTTP CALLS
 
 PRODUCTION BUILD
 - process.env.NODE_ENV can be used by babel and other libs
+- production build is generated in folder dist
+- run production build from local with mock API: > npm run build   open: http://localhost:3000/bundle.html
+- run development build: > npm run start   open: http://localhost:3000/   and   http://localhost:3000/bundle.html
 
 SUBJECTS FOR INVESTIGATION
 - ESLint
