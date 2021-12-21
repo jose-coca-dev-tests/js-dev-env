@@ -47,6 +47,7 @@ PRODUCTION BUILD
     - open with production api: http://localhost:3000/bundle.html with any other parameters
 - html generation with bundle script added is working in dev and production builds
 - it was needed to downgrade versions in webpack and html-webpack-plugin
+- the GZIP compression is not actually working, not in my local test, it must be enabled in the server configuration
 
 SUBJECTS FOR INVESTIGATION
 - ESLint
@@ -80,3 +81,4 @@ SUBJECTS FOR INVESTIGATION
   - chance.js
   - randexp.js
 - Browsersync
+- enable GZIP encoding/compressing
