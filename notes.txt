@@ -91,3 +91,7 @@ SUBJECTS FOR INVESTIGATION
 - Lodash
 - Error logging with TrackJS
 - EmbeddedJS
+- Deploy Front-End on Content Delivery Networks (CDN)
+- Deploy on GitHub Pages (maybe useful for portfolios, only static files?)
+- Deploy Static files on Surge
+- Deploy API on Heroku (free option)
