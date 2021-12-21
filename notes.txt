@@ -49,6 +49,7 @@ PRODUCTION BUILD
 - it was needed to downgrade versions in webpack and html-webpack-plugin
 - the GZIP compression is not actually working, not in my local test, it must be enabled in the server configuration
 - The bundle is splitted in two: main.js(app code) and vendor.js(dependencies), only in production build, it is working
+- A hash is added to the bundle names, it is useful for "cache busting", setting a time limit for not updating the bundle in the browser
 
 SUBJECTS FOR INVESTIGATION
 - ESLint

@@ -11,7 +11,7 @@ export default {
   output: {
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
-    filename: "[name].js",
+    filename: "[name].[chunkhash].js",
   },
   plugins: [
     // Create HTML file that includes reference to bundled JS.
