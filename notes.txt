@@ -60,6 +60,7 @@ SUBJECTS FOR INVESTIGATION
 - Webpack
 - html-webpack-plugin
 - copy-webpack-plugin
+- Browserify
 - Express
 - localtunnel
 - NPM scripts
