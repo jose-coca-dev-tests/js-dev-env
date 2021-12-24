@@ -67,6 +67,8 @@ SUBJECTS FOR INVESTIGATION
 - babel-node
 - AMD asyncrhonous module definition
 - RequireJS
+- SystemJS
+- UMD Universal Module Definition
 - Mocha
 - Chai
 - JSDom
